@@ -8,11 +8,11 @@ def dodaj(a,b):
 
 
 def odejmij(a,b):
-	wynik = float(a) - float(b)
-	return  wynik
+	wynik = float(a)-float(b)
+	return wynik
 
-pierwsza = int(input())
-druga= int(input())
+pierwsza = input()
+druga= input()
 
 print (dodaj(pierwsza, druga))
 
